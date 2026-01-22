@@ -65,6 +65,11 @@ It highlights my work with **Infrastructure as Code (IaC)**, **automation**, **C
 | 8 | [MERN Stack - Ansible](https://github.com/engabelal/cm-ansible-mern-stack) | Ansible · YAML | Automated MERN stack deployment |
 | 9 | [Packer Golden AMI](https://github.com/engabelal/packer-aws-devops-ami) | Packer · AWS · Ubuntu | Automated DevOps AMI creation |
 | 10 | [ABCloudOps Scripts Kit](https://github.com/engabelal/abcloudops-scripts-kit) | Bash · AWS CLI | Cloud automation scripts toolkit |
+| 11 | [Ghost Blog on K8s](https://github.com/engabelal/k8s-ghost-blog-platform) | K8s · GitOps · Traefik | Production self-hosted blog platform |
+| 12 | [Kubeadm AWS Lab](https://github.com/engabelal/k8s-aws-kubeadm-tf) | Terraform · AWS · Kubeadm | "Zero to Hero" K8s cluster on AWS |
+| 13 | [HA K8s - Multipass](https://github.com/engabelal/k8s-ha-multipass) | Multipass · HAProxy | Local HA Cluster with stacked etcd |
+| 14 | [HA K8s - Talos Linux](https://github.com/engabelal/k8s-ha-talos) | Talos · Envoy Gateway | Immutable OS & Modern Gateway API |
+| 15 | [Cloudy Runner](https://github.com/engabelal/cloudy-runner) | Docker · CI/CD | Universal DevOps CI/CD Runner Image |
 
 ---
 
@@ -160,12 +165,57 @@ git clone https://github.com/engabelal/packer-aws-devops-ami.git
 git clone https://github.com/engabelal/abcloudops-scripts-kit.git
 ```
 ---
+### ✅ [Ghost Blog Platform on Kubernetes - Self Hosted](https://github.com/engabelal/k8s-ghost-blog-platform)
+- **Tech:** Kubernetes · Traefik · Sealed Secrets · MySQL StatefulSet · Cert-Manager · GitOps
+- **Summary:** Production-ready, secure, and scalable Ghost blogging platform deployed on a self-hosted Kubernetes cluster. Features a full GitOps workflow with "Bitnami Sealed Secrets" for encrypted credential management, dedicated "StatefulSet" for MySQL with headless services, and "Traefik Ingress" with automatic Let's Encrypt TLS via cert-manager. Includes advanced health monitoring probes and security headers hardening.
+
+📌 **Clone this project**
+```bash
+git clone https://github.com/engabelal/k8s-ghost-blog-platform.git
+```
+---
+### ✅ [Kubeadm AWS Terraform Lab - Zero to Hero](https://github.com/engabelal/k8s-aws-kubeadm-tf)
+- **Tech:** Terraform · AWS EC2 · Kubeadm · Containerd · Cilium/Calico · Traefik/NGINX
+- **Summary:** The ultimate "Zero to Hero" Kubernetes lab on AWS. Builds a production-grade cluster architecture from scratch using Terraform and Kubeadm (no EKS). Features a cost-optimized design without NAT Gateways, secure IAM roles, and modular addons switching (swap Calico for Cilium or NGINX for Traefik). Perfect for CKA/CKAD preparation and deep understanding of K8s internals.
+
+📌 **Clone this project**
+```bash
+git clone https://github.com/engabelal/k8s-aws-kubeadm-tf.git
+```
+---
+### ✅ [Kubernetes High-Availability Lab - Multipass](https://github.com/engabelal/k8s-ha-multipass)
+- **Tech:** Multipass · Kubeadm · HAProxy · Ubuntu VMs · Bash Automation
+- **Summary:** Fully automated local High-Availability Kubernetes cluster using Multipass VMs. Provisions a stacked ETCD topology with 3 Control Plane nodes, 2 Worker nodes, and an external HAProxy Load Balancer. Includes automated bootstrap scripts for "one-click" deployment of a CKA-ready lab environment on your laptop.
+
+📌 **Clone this project**
+```bash
+git clone https://github.com/engabelal/k8s-ha-multipass.git
+```
+---
+### ✅ [Kubernetes HA on Talos Linux - Modern Gateway API](https://github.com/engabelal/k8s-ha-talos)
+- **Tech:** Talos Linux · MetalLB · Envoy Gateway · API-Driven OS · Immutable Infrastructure
+- **Summary:** Advanced next-generation Kubernetes cluster running on Talos Linux (an immutable, secure, API-managed OS). Demonstrates modern networking with MetalLB (Layer 2) and the new **Gateway API** standard using Envoy Gateway. Features a completely read-only file system, no SSH access (API only), and automated upgrades, showcasing the future of secure K8s infrastructure.
+
+📌 **Clone this project**
+```bash
+git clone https://github.com/engabelal/k8s-ha-talos.git
+```
+---
+### ✅ [Cloudy Runner - The Ultimate DevOps Image](https://github.com/engabelal/cloudy-runner)
+- **Tech:** Docker · GitHub Actions · Terraform · Ansible · Node.js · Multi-Arch
+- **Summary:** A production-ready, multi-architecture (AMD64/ARM64) Docker image packed with essential DevOps tools. Serves as a unified runner for CI/CD pipelines (GitHub Actions, GitLab CI, Jenkins) to ensure consistency across environments. Includes pre-configured Terraform, Ansible, AWS CLI, K8s tools, and security scanners, with weekly automated security refreshes.
+
+📌 **Clone this project**
+```bash
+git clone https://github.com/engabelal/cloudy-runner.git
+```
+---
 
 ## 🔗 Quick Links
 
-[🌐 Website](https://www.cloudycode.dev) | 
-[📧 Email Me](mailto:eng.abelal@gmail.com) | 
-[💼 LinkedIn](https://linkedin.com/in/engabelal) | 
+[🌐 Website](https://www.cloudycode.dev) |
+[📧 Email Me](mailto:eng.abelal@gmail.com) |
+[💼 LinkedIn](https://linkedin.com/in/engabelal) |
 [🐙 GitHub](https://github.com/engabelal)
 
 ---
