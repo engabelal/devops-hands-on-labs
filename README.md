@@ -79,6 +79,7 @@ mindmap
 ### ☸️ Kubernetes & Cloud Native
 | Project | Tech Stack | Description |
 |---------|------------|-------------|
+| **[K8s GitOps Canary Showcase](https://github.com/engabelal/k8s-gitops-canary-showcase)** | K8s · ArgoCD · Gateway API · cert-manager | Production canary deployment with automated SSL |
 | **[Ghost Blog Platform](https://github.com/engabelal/k8s-ghost-blog-platform)** | K8s · GitOps · Traefik · MySQL | Production self-hosted blog platform with GitOps |
 | **[Kubeadm AWS Lab](https://github.com/engabelal/k8s-aws-kubeadm-tf)** | Terraform · AWS · Kubeadm | "Zero to Hero" K8s cluster from scratch on AWS |
 | **[HA K8s Local](https://github.com/engabelal/k8s-ha-multipass)** | Multipass · HAProxy · Kubeadm | Local High-Availability Cluster with stacked etcd |
@@ -108,6 +109,18 @@ mindmap
 ## 📁 Detailed Project Breakdown
 
 ### ☸️ Kubernetes & Cloud Native
+
+#### ✅ [Kubernetes GitOps Canary Deployment Showcase](https://github.com/engabelal/k8s-gitops-canary-showcase)
+- **Summary:** Production-ready canary deployment running on private VPS (Kubernetes v1.35) demonstrating progressive delivery with traffic splitting. Features ArgoCD ApplicationSet for automated deployments, Envoy Gateway API for intelligent routing (60/40 split), and cert-manager with Cloudflare DNS-01 challenge for automated SSL certificates. Live deployment at `canary.cloudycode.dev` with git tag-based versioning and real-time traffic distribution.
+- **Tech Stack:** Kubernetes v1.35 (kubeadm) · ArgoCD · Envoy Gateway API · cert-manager · Cloudflare · NGINX · GitOps
+- **Key Features:**
+  - 🔄 GitOps workflow with ArgoCD ApplicationSet
+  - 🎯 Canary deployment with 60/40 traffic split
+  - 🔒 Automated SSL via cert-manager + Cloudflare API
+  - 🌐 Custom domain with subdomain routing
+  - 🏷️ Git tag-based version management
+  - 📊 Live production environment with screenshots
+- `git clone https://github.com/engabelal/k8s-gitops-canary-showcase.git`
 
 #### ✅ [Ghost Blog Platform on Kubernetes - Self Hosted](https://github.com/engabelal/k8s-ghost-blog-platform)
 - **Summary:** Production-ready, secure, and scalable Ghost blogging platform...
