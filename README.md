@@ -1,4 +1,4 @@
-# ⚙️ DevOps, DevSecOps & Cloud Portfolio
+# ⚙️ DevSecOps & Cloud Portfolio
 
 <div align="center">
 
