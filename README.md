@@ -1,11 +1,11 @@
-# ⚙️ DevOps & Cloud Portfolio
+# ⚙️ DevOps, DevSecOps & Cloud Portfolio
 
 <div align="center">
 
 ![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=engabelal.devops-portfolio)
 
 ### **Ahmed Belal**
-**Senior DevOps & Cloud Engineer**
+**Senior DevOps, DevSecOps & Cloud Engineer**
 
 [🌐 Website](https://www.cloudycode.dev) • [💼 LinkedIn](https://linkedin.com/in/engabelal) • [📧 Email](mailto:eng.abelal@gmail.com)
 
