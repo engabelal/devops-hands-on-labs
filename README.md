@@ -97,6 +97,7 @@ mindmap
 ### 🤖 DevOps Automation & CI/CD
 | Project | Tech Stack | Description |
 |---------|------------|-------------|
+| **[OpsAtlas - DevSecOps Service Portal](https://gitlab.com/devsecops-projects7194534/devsecops-service-portal)** | GitLab CI · Argo CD · K8s · Trivy · SonarQube | Full DevSecOps pipeline: 7-stage CI, security gates, GitOps delivery to K8s |
 | **[Cloudy Runner](https://github.com/engabelal/cloudy-runner)** | Docker · CI/CD · Multi-arch | Universal DevOps CI/CD Runner Image (All-in-one) |
 | **[Node.js CI/CD Pipeline](https://github.com/engabelal/simple-nodejs-ec2-cicd)** | GitHub Actions · AWS SSM | Fast 13s deployment pipeline to EC2 |
 | **[Ansible Dynamic Inv](https://github.com/engabelal/ansible-aws-inventory-demo)** | Ansible · AWS · Bastion | Automated inventory management via SSH tunnels |
@@ -158,6 +159,10 @@ mindmap
 ---
 
 ### 🤖 DevOps Automation & CI/CD
+
+#### ✅ [OpsAtlas - DevSecOps Service Portal](https://gitlab.com/devsecops-projects7194534/devsecops-service-portal)
+- **Summary:** Production-grade portfolio project demonstrating a full DevSecOps and GitOps lifecycle. A Node.js service catalog backed by MariaDB with a modular 11-job GitLab CI pipeline (7 ordered stages) featuring enforced quality and security gates (SonarQube, Trivy, Gitleaks, SBOM), rootless container builds, immutable image promotion, cross-registry mirroring (GitLab CR → Docker Hub), and GitOps delivery via Argo CD + Kustomize to a self-hosted Kubernetes cluster. Live at [opsatlas.cloudycode.dev](https://opsatlas.cloudycode.dev).
+- `git clone https://gitlab.com/devsecops-projects7194534/devsecops-service-portal.git`
 
 #### ✅ [Cloudy Runner - The Ultimate DevOps Image](https://github.com/engabelal/cloudy-runner)
 - **Summary:** A production-ready, multi-architecture (AMD64/ARM64) Docker image...
