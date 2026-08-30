@@ -5,19 +5,43 @@
 ![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=engabelal.devops-portfolio)
 
 ### **Ahmed Belal**
-**Senior DevOps, DevSecOps & Cloud Engineer**
+
+**Senior DevSecOps & Cloud Engineer**
 
 [🌐 Website](https://www.cloudycode.dev) • [💼 LinkedIn](https://linkedin.com/in/engabelal) • [📧 Email](mailto:eng.abelal@gmail.com)
 
 ---
 
+<!-- CI/CD & GitOps -->
 <p align="center">
-  <a href="https://github.com/engabelal">
-    <img src="https://github-readme-stats.vercel.app/api?username=engabelal&show_icons=true&theme=transparent&hide_border=true" height="150" alt="stats graph" />
-  </a>
-  <a href="https://github.com/engabelal">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=engabelal&layout=compact&theme=transparent&hide_border=true" height="150" alt="languages" />
-  </a>
+  <img src="https://img.shields.io/badge/GitLab%20CI-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
+  <img src="https://img.shields.io/badge/Argo%20CD-EF7B4D?style=for-the-badge&logo=argo&logoColor=white" />
+  <img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white" />
+</p>
+
+<!-- Security -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Trivy-1904DA?style=for-the-badge&logo=aquasec&logoColor=white" />
+  <img src="https://img.shields.io/badge/SonarQube-4E9BCD?style=for-the-badge&logo=sonarqube&logoColor=white" />
+  <img src="https://img.shields.io/badge/Gitleaks-FF0000?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/Sealed%20Secrets-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
+</p>
+
+<!-- Containers & Kubernetes -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white" />
+  <img src="https://img.shields.io/badge/Kustomize-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
+</p>
+
+<!-- IaC & Cloud -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" />
+  <img src="https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white" />
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" />
+  <img src="https://img.shields.io/badge/Packer-02A8EF?style=for-the-badge&logo=packer&logoColor=white" />
 </p>
 
 </div>
@@ -26,7 +50,7 @@
 
 ## 📌 About Me
 
-> *From managing **enterprise data centers** to building **cloud platforms**—my journey has always been driven by a passion for **automation**. I constantly built **scripts and tools** to eliminate manual work and solve real problems. That's when I found **Cloud & DevOps**—where **infrastructure meets code**, and where I now build **automated, scalable systems** that just work.*
+> _From managing **enterprise data centers** to building **cloud platforms**—my journey has always been driven by a passion for **automation**. I constantly built **scripts and tools** to eliminate manual work and solve real problems. That's when I found **Cloud & DevOps**—where **infrastructure meets code**, and where I now build **automated, scalable systems** that just work._
 
 ---
 
@@ -77,33 +101,36 @@ mindmap
 ## 🏗️ Project Catalogue
 
 ### ☸️ Kubernetes & Cloud Native
-| Project | Tech Stack | Description |
-|---------|------------|-------------|
-| **[K8s GitOps Canary Showcase](https://github.com/engabelal/k8s-gitops-canary-showcase)** | K8s · ArgoCD · Gateway API · cert-manager | Production canary deployment with automated SSL |
-| **[Ghost Blog Platform](https://github.com/engabelal/k8s-ghost-blog-platform)** | K8s · GitOps · Traefik · MySQL | Production self-hosted blog platform with GitOps |
-| **[Kubeadm AWS Lab](https://github.com/engabelal/k8s-aws-kubeadm-tf)** | Terraform · AWS · Kubeadm | "Zero to Hero" K8s cluster from scratch on AWS |
-| **[HA K8s Local](https://github.com/engabelal/k8s-ha-multipass)** | Multipass · HAProxy · Kubeadm | Local High-Availability Cluster with stacked etcd |
-| **[HA K8s Talos](https://github.com/engabelal/k8s-ha-talos)** | Talos · Envoy Gateway · MetalLB | Immutable OS & Modern Gateway API Cluster |
+
+| Project                                                                                   | Tech Stack                                | Description                                       |
+| ----------------------------------------------------------------------------------------- | ----------------------------------------- | ------------------------------------------------- |
+| **[K8s GitOps Canary Showcase](https://github.com/engabelal/k8s-gitops-canary-showcase)** | K8s · ArgoCD · Gateway API · cert-manager | Production canary deployment with automated SSL   |
+| **[Ghost Blog Platform](https://github.com/engabelal/k8s-ghost-blog-platform)**           | K8s · GitOps · Traefik · MySQL            | Production self-hosted blog platform with GitOps  |
+| **[Kubeadm AWS Lab](https://github.com/engabelal/k8s-aws-kubeadm-tf)**                    | Terraform · AWS · Kubeadm                 | "Zero to Hero" K8s cluster from scratch on AWS    |
+| **[HA K8s Local](https://github.com/engabelal/k8s-ha-multipass)**                         | Multipass · HAProxy · Kubeadm             | Local High-Availability Cluster with stacked etcd |
+| **[HA K8s Talos](https://github.com/engabelal/k8s-ha-talos)**                             | Talos · Envoy Gateway · MetalLB           | Immutable OS & Modern Gateway API Cluster         |
 
 ### ☁️ AWS & Infrastructure as Code
-| Project | Tech Stack | Description |
-|---------|------------|-------------|
-| **[ECS Fargate Blue/Green](https://github.com/engabelal/ecs-fargate-terraform-deployment)** | Terraform · ECS · CodeDeploy | Production-ready Blue/Green deployment pipeline |
-| **[Terraform Layered Arch](https://github.com/engabelal/terraform-layered-mern-rds)** | Terraform · S3 Backend · RDS | Modular IaC architecture with isolated state |
-| **[Web App on EC2 ASG](https://github.com/engabelal/simple-webapp-ec2-nlb-asg)** | Terraform · ASG · NLB | Scalable web infra with multi-AZ & load balancing |
-| **[Serverless Events](https://github.com/engabelal/iac-aws-serverless-event)** | Lambda · DynamoDB · API GW | Full serverless backend for event registration |
-| **[VMware Provisioning](https://github.com/engabelal/iac-vmware-tf-vmprov)** | Terraform · VMware · RHEL | Infrastructure as code for on-prem virtualization |
+
+| Project                                                                                     | Tech Stack                   | Description                                       |
+| ------------------------------------------------------------------------------------------- | ---------------------------- | ------------------------------------------------- |
+| **[ECS Fargate Blue/Green](https://github.com/engabelal/ecs-fargate-terraform-deployment)** | Terraform · ECS · CodeDeploy | Production-ready Blue/Green deployment pipeline   |
+| **[Terraform Layered Arch](https://github.com/engabelal/terraform-layered-mern-rds)**       | Terraform · S3 Backend · RDS | Modular IaC architecture with isolated state      |
+| **[Web App on EC2 ASG](https://github.com/engabelal/simple-webapp-ec2-nlb-asg)**            | Terraform · ASG · NLB        | Scalable web infra with multi-AZ & load balancing |
+| **[Serverless Events](https://github.com/engabelal/iac-aws-serverless-event)**              | Lambda · DynamoDB · API GW   | Full serverless backend for event registration    |
+| **[VMware Provisioning](https://github.com/engabelal/iac-vmware-tf-vmprov)**                | Terraform · VMware · RHEL    | Infrastructure as code for on-prem virtualization |
 
 ### 🤖 DevOps Automation & CI/CD
-| Project | Tech Stack | Description |
-|---------|------------|-------------|
+
+| Project                                                                                                          | Tech Stack                                    | Description                                                                 |
+| ---------------------------------------------------------------------------------------------------------------- | --------------------------------------------- | --------------------------------------------------------------------------- |
 | **[OpsAtlas - DevSecOps Service Portal](https://gitlab.com/devsecops-projects7194534/devsecops-service-portal)** | GitLab CI · Argo CD · K8s · Trivy · SonarQube | Full DevSecOps pipeline: 7-stage CI, security gates, GitOps delivery to K8s |
-| **[Cloudy Runner](https://github.com/engabelal/cloudy-runner)** | Docker · CI/CD · Multi-arch | Universal DevOps CI/CD Runner Image (All-in-one) |
-| **[Node.js CI/CD Pipeline](https://github.com/engabelal/simple-nodejs-ec2-cicd)** | GitHub Actions · AWS SSM | Fast 13s deployment pipeline to EC2 |
-| **[Ansible Dynamic Inv](https://github.com/engabelal/ansible-aws-inventory-demo)** | Ansible · AWS · Bastion | Automated inventory management via SSH tunnels |
-| **[MERN Ansible Deploy](https://github.com/engabelal/cm-ansible-mern-stack)** | Ansible · MongoDB · Node.js | Automated full-stack application provisioning |
-| **[Packer Golden AMI](https://github.com/engabelal/packer-aws-devops-ami)** | Packer · AWS · Ubuntu | Automated hardened image creation pipeline |
-| **[Automation Scripts](https://github.com/engabelal/abcloudops-scripts-kit)** | Bash · AWS CLI | Essential DevOps toolkit for cloud management |
+| **[Cloudy Runner](https://github.com/engabelal/cloudy-runner)**                                                  | Docker · CI/CD · Multi-arch                   | Universal DevOps CI/CD Runner Image (All-in-one)                            |
+| **[Node.js CI/CD Pipeline](https://github.com/engabelal/simple-nodejs-ec2-cicd)**                                | GitHub Actions · AWS SSM                      | Fast 13s deployment pipeline to EC2                                         |
+| **[Ansible Dynamic Inv](https://github.com/engabelal/ansible-aws-inventory-demo)**                               | Ansible · AWS · Bastion                       | Automated inventory management via SSH tunnels                              |
+| **[MERN Ansible Deploy](https://github.com/engabelal/cm-ansible-mern-stack)**                                    | Ansible · MongoDB · Node.js                   | Automated full-stack application provisioning                               |
+| **[Packer Golden AMI](https://github.com/engabelal/packer-aws-devops-ami)**                                      | Packer · AWS · Ubuntu                         | Automated hardened image creation pipeline                                  |
+| **[Automation Scripts](https://github.com/engabelal/abcloudops-scripts-kit)**                                    | Bash · AWS CLI                                | Essential DevOps toolkit for cloud management                               |
 
 ---
 
@@ -112,23 +139,28 @@ mindmap
 ### ☸️ Kubernetes & Cloud Native
 
 #### ✅ [Kubernetes GitOps Canary Deployment Showcase](https://github.com/engabelal/k8s-gitops-canary-showcase)
+
 - **Summary:** Production-ready canary deployment running on private VPS (Kubernetes v1.35) demonstrating progressive delivery with traffic splitting. Features ArgoCD ApplicationSet for automated deployments, Envoy Gateway API for intelligent routing (60/40 split), and cert-manager with Cloudflare DNS-01 challenge for automated SSL certificates. Live deployment at canary.cloudycode.dev with git tag-based versioning and real-time traffic distribution.
 - `git clone https://github.com/engabelal/k8s-gitops-canary-showcase.git`
 
 #### ✅ [Ghost Blog Platform on Kubernetes - Self Hosted](https://github.com/engabelal/k8s-ghost-blog-platform)
+
 - **Summary:** Production-ready, secure, and scalable Ghost blogging platform...
-  *(Check repo for full README)*
+  _(Check repo for full README)_
 - `git clone https://github.com/engabelal/k8s-ghost-blog-platform.git`
 
 #### ✅ [Kubeadm AWS Terraform Lab - Zero to Hero](https://github.com/engabelal/k8s-aws-kubeadm-tf)
+
 - **Summary:** The ultimate "Zero to Hero" Kubernetes lab on AWS...
 - `git clone https://github.com/engabelal/k8s-aws-kubeadm-tf.git`
 
 #### ✅ [Kubernetes High-Availability Lab - Multipass](https://github.com/engabelal/k8s-ha-multipass)
+
 - **Summary:** Fully automated local High-Availability Kubernetes cluster...
 - `git clone https://github.com/engabelal/k8s-ha-multipass.git`
 
 #### ✅ [Kubernetes HA on Talos Linux - Modern Gateway API](https://github.com/engabelal/k8s-ha-talos)
+
 - **Summary:** Advanced next-generation Kubernetes cluster running on Talos Linux...
 - `git clone https://github.com/engabelal/k8s-ha-talos.git`
 
@@ -137,22 +169,27 @@ mindmap
 ### ☁️ AWS & Infrastructure as Code
 
 #### ✅ [ECS Fargate Blue/Green Deployment](https://github.com/engabelal/ecs-fargate-terraform-deployment)
+
 - **Summary:** Production-ready containerized application deployment using AWS ECS Fargate...
 - `git clone https://github.com/engabelal/ecs-fargate-terraform-deployment.git`
 
 #### ✅ [Terraform Layered Architecture](https://github.com/engabelal/terraform-layered-mern-rds)
+
 - **Summary:** Production-grade layered Terraform architecture solving real-world infrastructure challenges...
 - `git clone https://github.com/engabelal/terraform-layered-mern-rds.git`
 
 #### ✅ [Simple Web App on AWS EC2 Auto Scaling](https://github.com/engabelal/simple-webapp-ec2-nlb-asg)
+
 - **Summary:** Production-ready AWS infrastructure with EC2 Auto Scaling Groups...
 - `git clone https://github.com/engabelal/simple-webapp-ec2-nlb-asg.git`
 
 #### ✅ [Serverless Event Registration](https://github.com/engabelal/iac-aws-serverless-event)
+
 - **Summary:** Infrastructure as Code project to provision a complete serverless application...
 - `git clone https://github.com/engabelal/iac-aws-serverless-event.git`
 
 #### ✅ [OpenText IAM & Patch Terraform - VMware](https://github.com/engabelal/iac-vmware-tf-vmprov)
+
 - **Summary:** Terraform code for provisioning RHEL 9.4 VMs on VMware vSphere...
 - `git clone https://github.com/engabelal/iac-vmware-tf-vmprov.git`
 
@@ -161,30 +198,37 @@ mindmap
 ### 🤖 DevOps Automation & CI/CD
 
 #### ✅ [OpsAtlas - DevSecOps Service Portal](https://gitlab.com/devsecops-projects7194534/devsecops-service-portal)
+
 - **Summary:** Production-grade portfolio project demonstrating a full DevSecOps and GitOps lifecycle. A Node.js service catalog backed by MariaDB with a modular 11-job GitLab CI pipeline (7 ordered stages) featuring enforced quality and security gates (SonarQube, Trivy, Gitleaks, SBOM), rootless container builds, immutable image promotion, cross-registry mirroring (GitLab CR → Docker Hub), and GitOps delivery via Argo CD + Kustomize to a self-hosted Kubernetes cluster. Live at [opsatlas.cloudycode.dev](https://opsatlas.cloudycode.dev).
 - `git clone https://gitlab.com/devsecops-projects7194534/devsecops-service-portal.git`
 
 #### ✅ [Cloudy Runner - The Ultimate DevOps Image](https://github.com/engabelal/cloudy-runner)
+
 - **Summary:** A production-ready, multi-architecture (AMD64/ARM64) Docker image...
 - `git clone https://github.com/engabelal/cloudy-runner.git`
 
 #### ✅ [Node.js CI/CD Pipeline to AWS EC2](https://github.com/engabelal/simple-nodejs-ec2-cicd)
+
 - **Summary:** Production-ready CI/CD pipeline deploying Node.js applications to AWS EC2...
 - `git clone https://github.com/engabelal/simple-nodejs-ec2-cicd.git`
 
 #### ✅ [Ansible AWS Dynamic Inventory Demo](https://github.com/engabelal/ansible-aws-inventory-demo)
+
 - **Summary:** Production-grade infrastructure automation using Ansible with AWS EC2 dynamic inventory...
 - `git clone https://github.com/engabelal/ansible-aws-inventory-demo.git`
 
 #### ✅ [Automated MERN Stack Deployment](https://github.com/engabelal/cm-ansible-mern-stack)
+
 - **Summary:** Automated provisioning of a complete MERN stack (MongoDB, Express, React, Node.js)...
 - `git clone https://github.com/engabelal/cm-ansible-mern-stack.git`
 
 #### ✅ [Packer AWS DevOps Base AMI](https://github.com/engabelal/packer-aws-devops-ami)
+
 - **Summary:** Automated Golden AMI creation using HashiCorp Packer...
 - `git clone https://github.com/engabelal/packer-aws-devops-ami.git`
 
 #### ✅ [ABCloudOps Scripts Kit](https://github.com/engabelal/abcloudops-scripts-kit)
+
 - **Summary:** Production-ready DevOps automation scripts for cloud infrastructure management...
 - `git clone https://github.com/engabelal/abcloudops-scripts-kit.git`
 
